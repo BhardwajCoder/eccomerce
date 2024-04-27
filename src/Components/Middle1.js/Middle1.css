@@ -1,0 +1,13 @@
+.daily-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.middle2-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+}
+.middle2-img{
+    width: 100%;
+}

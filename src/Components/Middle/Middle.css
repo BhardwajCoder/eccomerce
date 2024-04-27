@@ -1,0 +1,19 @@
+.middle-img{
+    width: 100%;
+}
+.summer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.middle-img1{
+    width: 100%;
+}
+@media  only screen and (max-width:576px){
+    .middle-img{
+        width: 100%;
+    }
+    .middle-img1{
+        width: auto;
+        height:auto;
+    }
+}

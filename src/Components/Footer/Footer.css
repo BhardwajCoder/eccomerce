@@ -1,0 +1,41 @@
+.Footer{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2c4152;
+  padding: 30px;
+}
+.payment{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #2c4152;  
+    font-weight: 600;
+    font-size: 20px;
+}
+.li{
+    color:#ccc;
+    list-style: none;
+}
+.hr{
+    border: 1px solid;
+    color: white;
+    width: auto;
+}
+.icon{
+    height: 60px;
+    width: 70px;
+    color: white;
+}
+@media  only screen and (max-width:576px){
+    .Footer{
+        display: grid;
+        grid-template-columns: auto auto ;
+        background-color: #2c4152;
+        padding: 30px;
+      }
+      .payment{
+       display: grid;
+       grid-template-columns: auto auto;
+       padding: 20px;
+       color: white;
+    }
+}
