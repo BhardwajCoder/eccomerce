@@ -3,7 +3,7 @@ import './Hero.css'
 function Hero() {
   return (
  <>
- <div className='container my-3'>
+ <div className='container '>
 <div id="carouselExampleAutoplaying" class="carousel slide"  data-bs-ride="carousel" data-pause="false">
   <div class="carousel-inner">
     <div class="carousel-item active"  data-bs-interval="1000">
@@ -25,9 +25,8 @@ function Hero() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
- <section>
  <div class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 ">
       <div class="col-10 col-sm-8 col-lg-6">
         <img src="https://t3.ftcdn.net/jpg/02/24/64/56/360_F_224645618_dtpq1bEjnN67g3gampm39hg698AUC9tf.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
       </div>
@@ -38,7 +37,7 @@ function Hero() {
       </div>
     </div>
   </div>
- </section>
+
  </div>
  </>
   )

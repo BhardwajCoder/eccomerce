@@ -9,9 +9,9 @@ function Navbar() {
       <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" alt="" className='ajio py-2' />
     <div >
       <ul className='navbar my-2'>
-        <li>MEN</li>
         <li>KIDS</li>
         <li>WOMEN</li>
+        <li>MEN</li>
         <li>HOMES</li>
         <li>KITCHEN</li>
       </ul>

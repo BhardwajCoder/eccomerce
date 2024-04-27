@@ -9,6 +9,9 @@
     width: 100%;
 }
 @media  only screen and (max-width:576px){
+    .vanish{
+        display: none;
+    }
     .middle-img{
         width: 100%;
     }

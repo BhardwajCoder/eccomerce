@@ -22,6 +22,10 @@
     font-weight: 600;
     cursor: pointer;
 }
+.navbar li a{
+    color: black;
+    list-style: none;
+}
 @media  only screen and (max-width:576px){
     .ajio{
         height: 50px;

@@ -45,8 +45,8 @@ function Middle() {
         <img src="https://assets.ajio.com/cms/AJIO/WEB/Summer%20Specials_D.jpg" alt="" className='
         middle-img' />
     </div>
- <section>
- <div id="carouselExample" class="carousel slide" data-pause="false">
+ <section className='vanish'>
+ <div id="carouselExample vanish" class="carousel slide" data-pause="false">
   <div class="carousel-inner">
     <div class="carousel-item active">
         <div className='summer-section'>
