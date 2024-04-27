@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css';
-import { FaShoppingBag } from "react-icons/fa";
+import { FaBagShopping } from "react-icons/fa6";
 import { FaHeartCirclePlus } from "react-icons/fa6";
 function Navbar() {
   return (
@@ -17,7 +17,7 @@ function Navbar() {
       </ul>
       <div className='search1'>
         <input class="form-control search" type="search" placeholder="   SearchAJIO" aria-label="Search" />
-        <FaShoppingBag size={"2rem"}/> <span><FaHeartCirclePlus size={"2rem"}/></span>
+        <FaBagShopping size={"2rem"} /> <span><FaHeartCirclePlus size={"2rem"}/></span>
          </div>
       
     </div>
