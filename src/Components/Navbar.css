@@ -41,9 +41,9 @@
       margin-left: auto;
     }
     .navbar{
-        display: flex;
-       align-content: space-around;
-        justify-content: space-around;
+        display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 12px;
         list-style: none;  
         font-size: 20px;
         font-weight: 600;

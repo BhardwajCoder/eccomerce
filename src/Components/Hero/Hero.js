@@ -3,7 +3,7 @@ import './Hero.css'
 function Hero() {
   return (
  <>
- <div className='container'>
+ <div className='container my-3'>
 <div id="carouselExampleAutoplaying" class="carousel slide"  data-bs-ride="carousel" data-pause="false">
   <div class="carousel-inner">
     <div class="carousel-item active"  data-bs-interval="1000">
@@ -26,19 +26,18 @@ function Hero() {
   </button>
 </div>
  <section>
- <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-pause="false">
-  <div class="carousel-inner">
-    <div class="carousel-item active"data-bs-interval="1000">
-      <img src="https://assets.ajio.com/cms/AJIO/WEB/1440x128-%20UHP%20web%20RRL_SBI.jpg" class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item"data-bs-interval="2000">
-      <img src="https://assets.ajio.com/cms/AJIO/WEB/1440x128-au.jpg" class="d-block w-100" alt="..."/>
-    </div>
-    <div class="carousel-item"data-bs-interval="3000">
-      <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05042024-bankoffers-Z1-5instant-prepaid.jpg" class="d-block w-100" alt="..."/>
+ <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://t3.ftcdn.net/jpg/02/24/64/56/360_F_224645618_dtpq1bEjnN67g3gampm39hg698AUC9tf.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Make your online shopping easy with AJIO</h1>
+        <p class="lead"><strong >AJIO</strong> is the best destination for online shopping you can buy anything for your kids and home with latest fashion design for both men and women check hurry  .</p>
+       
+      </div>
     </div>
   </div>
-</div>
  </section>
  </div>
  </>
